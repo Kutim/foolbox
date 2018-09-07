@@ -5,6 +5,7 @@ from .gradient import GradientAttack, GradientSignAttack, FGSM
 from .iterative_gradient import IterativeGradientAttack, IterativeGradientSignAttack
 from .lbfgs import LBFGSAttack, ApproximateLBFGSAttack
 from .deepfool import DeepFoolAttack, DeepFoolL2Attack, DeepFoolLinfinityAttack
+from .virtual_adversarial import VirtualAdversarialAttack
 from .saliency import SaliencyMapAttack
 from .blur import GaussianBlurAttack
 from .contrast import ContrastReductionAttack
